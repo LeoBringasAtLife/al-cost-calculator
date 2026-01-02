@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>my-app-calculator</title>
+    <link rel="stylesheet" href="sty.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="calculator-card">
+        <h2>AI Cost Calculator</h2>
+
+        <!-- List all current AI models (12 models). Research each one. -->
+
+        <div class="tools-grid">
+          <label class="checkbox-item">
+            <input type="checkbox" data-cost="30" value="GPT-5" />
+            <span>GPT-5 (OpenAI)</span>
+          </label>
+          <label class="checkbox-item">
+            <input type="checkbox" data-cost="30" value="Claude 4 Opus" />
+            <span>Claude 4 Opus</span>
+          </label>
+          <label class="checkbox-item">
+            <input type="checkbox" data-cost="25" value="Gemini 3 Pro" />
+            <span>Gemini 3 Pro</span>
+          </label>
+
+          <label class="checkbox-item">
+            <input type="checkbox" data-cost="15" value="o3-mini" />
+            <span>o3-mini (Reasoning)</span>
+          </label>
+          <label class="checkbox-item">
+            <input type="checkbox" data-cost="20" value="Claude 4 Sonnet" />
+            <span>Claude 4 Sonnet</span>
+          </label>
+          <label class="checkbox-item">
+            <input type="checkbox" data-cost="10" value="Llama 4" />
+            <span>Llama 4 (Meta)</span>
+          </label>
+
+          <label class="checkbox-item">
+            <input type="checkbox" data-cost="20" value="Grok 4" />
+            <span>Grok 4 (xAI)</span>
+          </label>
+          <label class="checkbox-item">
+            <input type="checkbox" data-cost="10" value="DeepSeek-V3" />
+            <span>DeepSeek-V3</span>
+          </label>
+          <label class="checkbox-item">
+            <input type="checkbox" data-cost="15" value="Mistral Large 3" />
+            <span>Mistral Large 3</span>
+          </label>
+
+          <label class="checkbox-item">
+            <input type="checkbox" data-cost="10" value="Qwen 3" />
+            <span>Qwen 3 (Alibaba)</span>
+          </label>
+          <label class="checkbox-item">
+            <input type="checkbox" data-cost="50" value="Sora" />
+            <span>Sora (Video Gen)</span>
+          </label>
+          <label class="checkbox-item">
+            <input type="checkbox" data-cost="40" value="Kling 2.6" />
+            <span>Kling 2.6 (Video Gen)</span>
+          </label>
+        </div>
+        <!-- ================== End AI Models -->
+
+        <div class="results-section">
+          <div class="input-group">
+            <label for="team-size">Team Size</label>
+            <input type="number" id="team-size" value="10" min="1" />
+          </div>
+
+          <div class="result-group">
+            <span class="label">Monthly savings</span>
+            <span class="amount" id="monthly-savings">$0</span>
+          </div>
+
+          <div class="result-group">
+            <span class="label">Annual savings</span>
+            <span class="amount" id="annual-savings">$0</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script defer src="ap.js"></script>
+  </body>
+</html>
