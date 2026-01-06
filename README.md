@@ -1,12 +1,8 @@
-# Calculadora de Costos de IA
-
-Este proyecto es una calculadora web interactiva diseñada para estimar ahorros mensuales y anuales basados en la selección de diversas herramientas de IA y el tamaño del equipo.
-
-**Descripción**
+## Calculadora de Costos de IA
 
 La aplicación permite a los usuarios seleccionar entre una variedad de herramientas de inteligencia artificial de última generación (2025-2026), cada una con un costo asociado. Al ingresar el tamaño del equipo, la calculadora computa automáticamente el ahorro total proyectado.
 
-**Modelos de IA (Investigación 2025-2026)**
+**Modelos de IA**
 
 1.  **GPT-5 (OpenAI)**: El modelo insignia de OpenAI, diseñado para razonamiento avanzado y capacidades multimodales superiores.
 2.  **Claude 4 Opus (Anthropic)**: El modelo más potente de Anthropic, optimizado para tareas complejas, codificación y análisis profundo.
@@ -21,20 +17,20 @@ La aplicación permite a los usuarios seleccionar entre una variedad de herramie
 11. **Sora (OpenAI)**: Revolucionario modelo de generación de video de alta fidelidad a partir de texto.
 12. **Kling 2.6**: Modelo avanzado de generación de video cinemático con gran consistencia visual.
 
-** Características**
+**Características**
 
-- **Selección de Herramientas**: Múltiples opciones de herramientas con costos predefinidos.
-- **Cálculo Dinámico**: Actualización en tiempo real de los resultados al seleccionar/deseleccionar herramientas o cambiar el tamaño del equipo.
-- **Proyección de Ahorros**: Muestra claramente el ahorro mensual y anual.
-- **Diseño Responsivo**: Interfaz limpia y adaptable a diferentes tamaños de pantalla.
+**Selección de Herramientas**: Múltiples opciones de herramientas con costos predefinidos. <br>
+**Cálculo Dinámico**: Actualización en tiempo real de los resultados al seleccionar/deseleccionar herramientas o cambiar el tamaño del equipo. <br>
+**Proyección de Ahorros**: Muestra claramente el ahorro mensual y anual. <br>
+**Diseño Responsivo**: Interfaz limpia y adaptable a diferentes tamaños de pantalla. <br>
 
-** Tecnologías Utilizadas**
+**Tecnologías Utilizadas**
 
-- **HTML5**: Estructura semántica del contenido (`in.html`).
-- **CSS3**: Estilos modernos utilizando Flexbox, Grid y variables CSS (`sty.css`).
-- **JavaScript (Vanilla)**: Lógica para el manejo de eventos y cálculos matemáticos (`ap.js`).
+**HTML5**: Estructura semántica del contenido (`in.html`). <br>
+**CSS3**: Estilos modernos utilizando Flexbox, Grid y variables CSS (`sty.css`). <br>
+**JavaScript (Vanilla)**: Lógica para el manejo de eventos y cálculos matemáticos (`ap.js`). <br>
 
-** Cómo Usar**
+**Cómo Usar**
 
 1. Clonar o descargar este repositorio.
 2. Abrir el archivo `in.html` en tu navegador web preferido.
@@ -42,8 +38,8 @@ La aplicación permite a los usuarios seleccionar entre una variedad de herramie
 4. Ingresar el número de personas en tu equipo en el campo de "Tamaño del Equipo".
 5. Observar cómo se actualizan automáticamente los valores de ahorro mensual y anual.
 
-** Estructura de Archivos**
+**Estructura de Archivos**
 
-- `in.html`: El punto de entrada principal que contiene la estructura de la página.
-- `sty.css`: Archivo de estilos que define la apariencia de la aplicación.
-- `ap.js`: Script que maneja la lógica de cálculo y la interacción con el DOM.
+`in.html`: El punto de entrada principal que contiene la estructura de la página. <br>
+`sty.css`: Archivo de estilos que define la apariencia de la aplicación. <br>
+`ap.js`: Script que maneja la lógica de cálculo y la interacción con el DOM. <br>
